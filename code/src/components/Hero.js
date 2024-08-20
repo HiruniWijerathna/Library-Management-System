@@ -1,5 +1,7 @@
 import React from 'react';
 import Header from './Header';
+import ReHeader from './ReHeader';
+
 import './Hero.css';
 import { Link } from 'react-router-dom';
 
@@ -7,7 +9,10 @@ import { Link } from 'react-router-dom';
 const Hero = () => {
   return (
     <div>
+      
+      <ReHeader />
       <Header /> {/* Add the Header component here */}
+     
 
       <div className="hero">
         <div className="hero-content">

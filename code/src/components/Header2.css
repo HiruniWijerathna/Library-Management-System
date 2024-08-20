@@ -1,0 +1,77 @@
+/* Header2.css */
+.separator-line {
+  border-top: 1px solid #002a02; /* White line color */
+  margin: 20px 0; /* Spacing above and below the line */
+}
+.sidebar-container {
+
+    position: fixed; /* Keep sidebar fixed on the left */
+    left: 0; /* Align to the left side */
+    top: 0; /* Align to the top of the viewport */
+    width: 17%; /* Adjust width as needed */
+    height: 100vh; /* Full height of the viewport */
+    background-color: #ddebe3; /* Background color */
+    color: white; /* Text color */
+    display: flex;
+    flex-direction: column;
+    padding: 20px; /* Padding around the content */
+    z-index: 1000; /* Ensure sidebar is above other content */
+  }
+  
+
+.brand {
+  font-size: 34px; /* Font size for brand */
+  font-weight: bold;
+  color: "#c73c3c";
+  margin-bottom: 20px; /* Spacing below brand */
+  margin-Right: "20px";
+  margin-top: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+            font-family: 'Georgia', 'Times New Roman', serif; /* Serif font for similar appearance */
+            
+            font-weight: bold; /* Bold to match thickness */
+            color: #eb0606; /* Similar color to the text in the image */
+            -webkit-text-stroke: 2px black; /* Adds a black border around the text */
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+           
+}
+
+
+
+.nav-menu,
+.settings-menu {
+  margin-bottom: 20px; /* Spacing below each menu */
+}
+
+.nav-menu ul,
+.settings-menu ul {
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove padding */
+}
+
+.nav-menu li,
+.settings-menu li {
+  margin-bottom: 10px; /* Spacing between menu items */
+}
+
+.nav-menu a,
+.settings-menu a {
+  color: rgb(1, 30, 23); /* Text color */
+  text-decoration: none; /* Remove underline */
+  display: flex;
+  align-items: center; /* Center items vertically */
+  font-size: 22px;
+}
+
+.nav-menu a:hover,
+.settings-menu a:hover {
+  background-color: #428d8d; /* Darker background on hover */
+  padding: 10px; /* Add padding on hover */
+  border-radius: 4px; /* Rounded corners */
+}
+
+.icon {
+  margin-right: 10px; /* Spacing between icon and text */
+}
+
