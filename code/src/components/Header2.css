@@ -10,7 +10,7 @@
     top: 0; /* Align to the top of the viewport */
     width: 17%; /* Adjust width as needed */
     height: 100vh; /* Full height of the viewport */
-    background-color: #ddebe3; /* Background color */
+    background-color: #d1f9f1; /* Background color */
     color: white; /* Text color */
     display: flex;
     flex-direction: column;

@@ -31,6 +31,9 @@ const Settings = () => {
         <form onSubmit={handleSubmit} style={styles.form}>
           <div style={styles.profileContainer}>
             <div style={styles.profilePic}>
+              {!profilePic && (
+                <i className="fas fa-user-circle" style={styles.profileIcon}></i>
+              )}
               {profilePic ? (
                 <img src={profilePic} alt="Profile" style={styles.profileImg} />
               ) : (
@@ -109,15 +112,12 @@ const styles = {
   },
   container: {
     backgroundColor: '#A1DAD7',
-    padding: '15px',
+    padding: '10px',
     borderRadius: '10px',
     width: '75%',
     marginLeft: '21%',
     marginTop: '150px',
-    
     fontFamily: 'Arial, sans-serif',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' // Adds a subtle shadow for better focus
-    
   },
   header: {
     fontSize: '20px',
@@ -133,16 +133,24 @@ const styles = {
     marginBottom: '20px'
   },
   profilePic: {
-    marginRight: '10px'
+    marginRight: '10px',
+    position: 'relative'
+  },
+  profileIcon: {
+    fontSize: '100px',
+    color: '#ccc',
+    position: 'absolute',
+    top: '0',
+    left: '0'
   },
   profileImg: {
-    width: '50px',
-    height: '50px',
+    width: '100px',
+    height: '100px',
     borderRadius: '50%'
   },
   emptyProfile: {
-    width: '50px',
-    height: '50px',
+    width: '100px',
+    height: '100px',
     backgroundColor: '#FFF',
     borderRadius: '50%'
   },

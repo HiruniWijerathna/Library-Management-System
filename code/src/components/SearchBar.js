@@ -24,7 +24,7 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "space-between",
-    backgroundColor: "#ececec",
+    backgroundColor: " #d1f9f1",
     padding: "20px", // Adjust padding to fit content
     borderBottom: "2px solid black",
     backgroundImage: `url(${headerImage})`,
@@ -44,7 +44,7 @@ const styles = {
     padding: "10px",
     borderRadius: "30px",
     border: "none",
-    backgroundColor: "#d0e7d0",
+    backgroundColor: "#d1f9f1",
     textAlign: "center",
     marginLeft: "auto",
     marginRight: "auto",
