@@ -20,7 +20,7 @@ const ReHeader = () => {
         <nav className="nav-menu">
           <ul>
             <li className="active">
-              <Link to="/">
+              <Link to="/home">
                 <span className="icon">🏠</span> Home
               </Link>
             </li>
@@ -41,7 +41,7 @@ const ReHeader = () => {
           </ul>
           <ul>
             <li>
-              <Link to="/favourite">
+              <Link to="favourite/">
                 <span className="icon">❤️</span> Favourite
               </Link>
             </li>

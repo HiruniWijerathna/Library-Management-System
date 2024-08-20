@@ -10,6 +10,7 @@ import Favourite from './components/Favourite';
 import Book from './components/Book';
 import Category from './components/Category';
 import Mylibrary from './components/Mylibrary'; 
+import Home from './components/Home'; 
 
 
 import './App.css';
@@ -31,6 +32,7 @@ function App() {
           <Route path="/book/:title" element={<Book />} />
           <Route path="/category" element={<Category />} />
           <Route path="/library" element={<Mylibrary />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </div>
     </Router>
