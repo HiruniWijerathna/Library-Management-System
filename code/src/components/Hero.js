@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <div>
       
-      <ReHeader />
+
       <Header /> {/* Add the Header component here */}
      
 
