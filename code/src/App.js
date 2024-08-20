@@ -8,6 +8,9 @@ import About from './components/About';
 import Logout from './components/Logout'; 
 import Favourite from './components/Favourite';
 import Book from './components/Book';
+import Category from './components/Category';
+import Mylibrary from './components/Mylibrary'; 
+
 
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
@@ -26,6 +29,8 @@ function App() {
           <Route path="/logout" element={<Logout />} /> 
           <Route path="/favourite" element={<Favourite />} /> 
           <Route path="/book/:title" element={<Book />} />
+          <Route path="/category" element={<Category />} />
+          <Route path="/library" element={<Mylibrary />} />
         </Routes>
       </div>
     </Router>
