@@ -4,6 +4,7 @@ import Admin_a from './components/Admin_a';
 import User_a from './components/User_a';
 import User_b from './components/User_b';
 import Settings from './components/Settings'; // Corrected import
+import HomePage from './components/HomePage';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/User_a" element={<User_a />} />
           <Route path="/User_b" element={<User_b />} />
           <Route path="/settings" element={<Settings />} /> {/* Corrected Route */}
+          <Route path="/HomePage" element={<HomePage />} />
         </Routes>
       </div>
     </Router>
