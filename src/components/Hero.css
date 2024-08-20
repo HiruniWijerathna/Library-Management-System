@@ -1,0 +1,96 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
+}
+
+.hero {
+    background-image: url('../image/home.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensures hero section takes up full height of the viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: #fff;
+    text-align: left;
+    width: 100%; /* Ensure full width */
+}
+
+          
+          .hero-content {
+            display: flex;
+           
+            
+          }
+          
+          .hero-title-side {
+            margin-top: 5px;
+            text-align: center;
+            margin-left: 10%;
+            font-family: 'Georgia', 'Times New Roman', serif; /* Serif font for similar appearance */
+            font-size: 30px; /* Adjust size as necessary */
+            font-weight: bold; /* Bold to match thickness */
+            color: #eb0606; /* Similar color to the text in the image */
+            -webkit-text-stroke: 2px black; /* Adds a black border around the text */
+            text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow effect */
+           
+            
+                        }
+                
+          .hero-text-side {
+            margin-top: 5px;
+            background: rgba(255, 255, 255, 0.5); /* Overlay effect */
+            padding: 40px;
+            border-radius: 10px;
+            flex-direction: row; /* Align children in a row */
+            margin-left: 30px;
+            margin-right: 10%;
+            text-align: center;
+       
+          }
+          
+          
+          .hero-title {
+            padding: 40px;
+            border-radius: 50px;
+            flex-direction: row; /* Align children in a row */
+            background: rgba(255, 255, 255, 0.5); /* Overlay effect */
+            
+          }
+          
+          .hero-subtitle {
+            font-size: 1.8rem;
+            color: #480404;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 40px;
+            font-weight: bold; /* Bold to match thickness */
+           
+          }
+          
+          .hero-description {
+            font-size: 1.3rem;
+            color: #340217;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 30px;
+            
+          }
+          
+          .hero-button {
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #fff;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+          }
+          
+          .hero-button:hover {
+            background-color: #e67575;
+          }
+          
