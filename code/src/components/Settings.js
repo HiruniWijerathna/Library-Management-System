@@ -116,7 +116,7 @@ const styles = {
     borderRadius: '10px',
     width: '75%',
     marginLeft: '21%',
-    marginTop: '150px',
+    marginTop: '110px',
     fontFamily: 'Arial, sans-serif',
   },
   header: {
